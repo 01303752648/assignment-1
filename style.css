@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sliderSec {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.sliderContain {
+    color: white;
+    text-align: center;
+    padding: 130px;
+}
+
+.sliderContain h1 {
+    font-size: 60px;
+    width: 900px;
+    margin: auto;
+    line-height: 80px;
+}
+
+.sliderContain p {
+    width: 700px;
+    margin: auto;
+    font-size: 18px;
+    padding: 30px 0px 50px 0px;
+
+}
+
+.donateBtn {
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.donateSection {}
+
+.donateTitle {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.donateTitle h1 {
+    font-size: 50px;
+}
+
+.donateTitle p {
+    font-size: 18px;
+    color: #979595;
+    margin-bottom: 40px;
+}
+
+
+.donateAmounts {
+    display: flex;
+    margin: auto;
+    width: 1000px;
+
+
+
+}
+
+.donateAmountsWrp {
+    margin: auto;
+    display: flex;
+}
+
+
+.singleAmount {
+    background-color: aliceblue;
+    padding: 20px 25px;
+    margin: 10px;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.singleAmount h3 {
+    font-size: 25px;
+}
+
+#selectAmount {
+    border: 3px solid red;
+    background-color: rgb(202, 198, 198);
+}
+
+.outherAmount {
+    width: 800px;
+
+    margin: auto;
+
+}
+
+.outherAmount span {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #999;
+    border-bottom: 3px solid #999;
+    margin: 50px 0px;
+}
+
+.btnDiv {
+
+    text-align: center;
+}
+
+.donarebtns {
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.donatePlanPart {
+    display: flex;
+    width: 1100px;
+    margin-top: 200px;
+    margin: auto;
+}
+
+
+
+.singlePart {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#singlePart1 {
+    background-color: #FFEEEE;
+}
+
+#singlePart2 {
+    background-color: #EDF5F6;
+}
+
+#singlePart3 {
+    background-color: #FFF4D6;
+}
+
+.singlePartIcon {
+    width: 60px;
+}
+
+.singlePartIcon img {
+    width: 100%;
+}
+
+.singlePartTitle {}
+
+.singlePartTitle h2 {
+    font-weight: bold;
+
+}
+
+.singlePartTitle p {
+    color: #999;
+}
+
+.liveDepent {
+    width: 1000px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.liveDepentTitle {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.liveDepentImage {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.liveDepentTitle h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.liveDepentTitle p {
+    color: #979595;
+    margin-bottom: 40px;
+}
+
+
+
+.liveDepentImage img {
+    width: 100%;
+}
+
+.liveDepentBtn {
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 700;
+    font-weight: bold;
+
+}
+
+.ourServiceTame {
+    display: flex;
+    margin-top: 100px;
+    width: 1000px;
+
+    margin: 100px auto;
+}
+
+.serviceImage {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.serviceImage img {
+    width: 100%;
+}
+
+.serviceTitle {
+    width: 50%;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.submitePart {
+    width: 800px;
+    background-color: #FFF4D6;
+    text-align: center;
+    margin: auto;
+
+}
+
+.submitePart form {
+    padding: 70px 80px;
+}
+
+.email {
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #D9D9D9;
+    border-radius: 7px 0px 0px 7px;
+
+}
+
+.subscribe {
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #FF5959;
+    border-radius: 0px 7px 7px 0px;
+    text-align: center;
+    width: 150px;
+
+
+}
+
+.subscribe::placeholder {
+    color: white;
+}
+
+footer {
+    background-color: #0B0D17;
+    text-align: center;
+    margin-top: 140px;
+    padding: 40px;
+}
+
+footer h1 {
+    color: #FF5959;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+
+footer span {
+    color: #969c9c;
+}
